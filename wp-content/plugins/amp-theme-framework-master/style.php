@@ -71,6 +71,7 @@
     height:auto;
     margin:auto;
     float:left;
+    margin-right: -5%;
  
 }
 .acordion-cursos{
@@ -79,6 +80,9 @@
 .acordion-cursos h4{
     text-align:center;
     padding: 5px;
+}
+.acordion-cursos h4:visited{
+    background-color:#000;
 }
 #acordion-saiba-mais h3{
 text-align:center;
@@ -104,9 +108,12 @@ content:'<';
     width:33%;
 }
 #p-titulo-secao{
-    line-height: 28px;
     padding-bottom: 10px;
     margin-top: 15px;
+}
+#p-titulo-secao a{
+    line-height: 34px;
+    
 }
 #p-titulo-secao #botao-entrar-amp{
     
@@ -147,7 +154,9 @@ SLIDER
     height:20px;
 }
 
-
+#slider-amp .amp-carousel-button{
+    margin:5px;
+}
 
 .slider-h{
     position: absolute;
@@ -168,6 +177,9 @@ SLIDER
 #slider-triplo .amp-carousel-slide{
     height:auto;
 }
+#slider-triplo .amp-carousel-button{
+    display:none;
+}
 /****
     MENU
 */
@@ -177,12 +189,42 @@ SLIDER
     padding:5px;
 }
 
+/****
+ACORDION
+*/
+
+#acordion-faq h5:before{
+    float:right;
+    margin-right:0px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0px 10px 0px 10px;
+    font-size:24px;
+    transform: scale(0.8);
+    color:#706767;
+}
+
+#acordion-faq section[expanded] h5:before{
+    float:right;
+    margin-right:0px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0px 13px 0px 13px;
+    font-size:24px;
+    transform: scale(0.8);
+    color:#706767;
+}
+#acordion-faq > section{
+    border-bottom: 2px solid #f5eaea;
+}
 
 
-
-
-
-
+/****
+    FOOTER
+*/
+.footer span{
+    display:none;
+}
 
 
 
