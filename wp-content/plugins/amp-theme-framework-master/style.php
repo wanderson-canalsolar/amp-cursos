@@ -128,11 +128,11 @@ content:'<';
 
 SLIDER
 */
-
-.amp-carousel-slide{
-    height:350px;
+#slider-amp{
+    
 }
-.slider-home-amp{
+
+.slider-home-btn{
     position: absolute;
     bottom: 10%;
     z-index: 99;
@@ -141,26 +141,13 @@ SLIDER
     border-radius: 21px;
     left: 25%;
     right: 25%;
-    font-size:15px;
+    font-size:14px;
     color:#fff;
+    width:25%;
+    height:20px;
 }
 
-/*
 
-position: absolute;
-    bottom: 10%;
-    z-index: 99;
-    background-color: #ef6c2b;
-    padding: 3px 47px 3px 47px;
-    border-radius: 21px;
-    left: 25%;
-    right: 25%;
-    font-size: 15px;
-    color: #fff;
-    width: 27%;
-    height: 25px;
-
-*/
 
 .slider-h{
     position: absolute;
